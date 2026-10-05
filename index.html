@@ -104,8 +104,9 @@ section{width:100%;display:flex;flex-direction:column;align-items:center}
 /* hero */
 .hero{padding-top:66cqi;gap:0}
 .hero .eyebrow{margin-bottom:6cqi}
-.name{font-family:var(--f-display);font-style:italic;font-weight:500;line-height:1.3;margin:0;font-size:20cqi;letter-spacing:-.01em;padding:0 .08em}
+.name{font-family:var(--f-display);font-style:italic;font-weight:500;line-height:1.3;margin:0;font-size:20cqi;letter-spacing:-.01em;padding:0 .08em;white-space:nowrap}
 .name.b2{font-size:21.5cqi}
+.name.name-long{font-size:11.5cqi}
 .surname{font-family:var(--f-serif);font-weight:500;font-size:7cqi;letter-spacing:.14em;margin:1.5cqi 0 0;color:var(--gold-ink)}
 .amp{font-family:var(--f-display);font-style:italic;font-size:11cqi;line-height:1;margin:4cqi 0 3cqi;color:var(--gold)}
 .rule{width:44cqi;height:1px;margin:7cqi auto 6cqi;background:linear-gradient(90deg,transparent,var(--gold) 20%,var(--gold) 80%,transparent)}
@@ -140,7 +141,6 @@ section{width:100%;display:flex;flex-direction:column;align-items:center}
 .btn-gold svg{width:1.1em;height:1.1em}
 .venue .btn-gold{margin-top:6cqi}
 
-.dress{font-family:var(--f-serif);font-style:italic;font-size:clamp(21px,7.4cqi,34px);margin:1cqi 0 0}
 
 /* no kids */
 .nokids{margin-top:3cqi}
@@ -276,7 +276,7 @@ footer small{font-family:var(--f-label);letter-spacing:.34em;font-size:clamp(9px
       <section class="hero" aria-label="The couple">
         <p class="eyebrow rv" style="--d:.1s">Together with their families</p>
         <h1 style="margin:0;display:flex;flex-direction:column;align-items:center">
-          <span class="name foil rv" style="--d:.35s">Poyan</span>
+          <span class="name name-long foil rv" style="--d:.35s">Azim Poyan</span>
           <span class="surname rv" style="--d:.55s">Ebrahimi</span>
           <span class="amp rv" style="--d:.75s" aria-label="and">&amp;</span>
           <span class="name b2 foil rv" style="--d:.95s">Brishna</span>
@@ -310,7 +310,7 @@ footer small{font-family:var(--f-label);letter-spacing:.34em;font-size:clamp(9px
           <div class="cd"><b id="cd-s">00</b><span>Seconds</span></div>
         </div>
         <p class="cd-done" id="cd-done" hidden></p>
-        <a class="calendar rv" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=Wedding%20of%20Poyan%20%26%20Brishna&amp;dates=20261124T230000Z/20261125T040000Z&amp;location=Cherry%20Blossom%20Banquet%20Hall&amp;details=Wedding%20celebration%20of%20Poyan%20Ebrahimi%20%26%20Brishna%20Zaki.%20Formal%20dress.">Add to calendar</a>
+        <a class="calendar rv" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=Wedding%20of%20Poyan%20%26%20Brishna&amp;dates=20261124T230000Z/20261125T040000Z&amp;location=Cherry%20Blossom%20Banquet%20Hall&amp;details=Wedding%20celebration%20of%20Azim%20Poyan%20Ebrahimi%20%26%20Brishna%20Zaki.">Add to calendar</a>
       </section>
 
       <svg class="orn rv" viewBox="0 0 240 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1"><path d="M0 12h92M148 12h92"/><path d="M96 12c6-8 14-8 20-2M144 12c-6-8-14-8-20-2M96 12c6 8 14 8 20 2M144 12c-6 8-14 8-20 2"/></g><path fill="currentColor" d="M120 5l4 7-4 7-4-7z"/><circle cx="86" cy="12" r="1.6" fill="currentColor"/><circle cx="154" cy="12" r="1.6" fill="currentColor"/></svg>
@@ -325,11 +325,6 @@ footer small{font-family:var(--f-label);letter-spacing:.34em;font-size:clamp(9px
       </section>
 
       <svg class="orn rv" viewBox="0 0 240 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1"><path d="M0 12h92M148 12h92"/><path d="M96 12c6-8 14-8 20-2M144 12c-6-8-14-8-20-2M96 12c6 8 14 8 20 2M144 12c-6 8-14 8-20 2"/></g><path fill="currentColor" d="M120 5l4 7-4 7-4-7z"/><circle cx="86" cy="12" r="1.6" fill="currentColor"/><circle cx="154" cy="12" r="1.6" fill="currentColor"/></svg>
-
-      <section class="dresscode" aria-label="Dress code">
-        <p class="eyebrow rv">Dress code</p>
-        <p class="dress rv">Formal dress</p>
-      </section>
 
       <section class="nokids" aria-label="No kids">
         <div class="flank rv"><i></i><svg viewBox="0 0 10 10" aria-hidden="true"><path fill="currentColor" d="M5 0l2 5-2 5-2-5z"/></svg><i></i></div>
